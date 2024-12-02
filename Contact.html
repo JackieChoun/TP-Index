@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="https://picsum.photos/800/200?random=4" alt="image random">
+        <h1> Contact </h1>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Acceuil</a></li>
+                <li><a href="Index.html">Blog</a></li>
+                <li>Galerie</li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="machin.php" method="post">
+            <fieldset>
+                <legend>Contacte moi</legend>
+                <div>
+                <label for="nom">Ton nom<span>*</span></label>
+                <input type="text" id="nom" placeholder="Nom" minlength="2" maxlength="20" required>
+                </div>
+                <div>
+                <label for="email">Ton mail<span>*</span></label>
+                <input type="email" id="email" placeholder="Email@mail.com" required>
+                </div>
+                <div>
+                <label for="commentaire">Ton commentaire:</label>
+                <br>
+                <textarea id="commentaire" type="text" rows="10" cols="70" placeholder="Commentaire"></textarea>
+                </div>
+                <div>
+                <label for="copie">Envoi copie</label>
+                <input id="copie" type="checkbox" checked>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Recommencer">
+                </div>
+            </fieldset> 
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://www.marmiton.org/recettes/recette_canard-laque_16929.aspx">Du canard</a></li>
+            <li><a href="https://www.thirdeditions.com/bd-animation/271-qui-est-le-chevalier-noir-batman-a-travers-les-ages-9782377841202.html">Batman</a></li>
+            <li><a href="https://github.com/">Github</a></li>
+            <li><a href="https://metropole.toulouse.fr/">Toulouse</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

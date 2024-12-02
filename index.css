@@ -1,0 +1,44 @@
+body{
+    background-image: radial-gradient(at top,#CCDAE0, #EDF2F4);
+}
+header, nav + ul{
+    text-align: center;
+}
+h1{
+    color: #EF233C;
+    font-family: "impact";
+    font-size: 300%;
+}
+h3{
+    color:#2B2D42;
+    font-size: 200%;
+    font-weight: bold;
+    text-decoration: underline dashed;
+}
+article{
+    border: black solid 1px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #8D99AE solid 2px;
+}
+footer{
+    text-align: right;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #D90429;
+}
+a:visited{
+    color: grey;
+}
+a:hover{
+    color: #2B2D42;
+}
+span{
+    color: red;
+}
